@@ -1,6 +1,6 @@
 document.querySelector("#push").onclick = function(){
     if(document.querySelector("#newtask input").value.length ==0){
-        alert("please enter new task ❌❌❌")
+        alert("please enter new task ❌")
     }
     else{
         document.querySelector("#tasks").innerHTML += `
